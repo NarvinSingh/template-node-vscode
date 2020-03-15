@@ -1,6 +1,6 @@
 export default {
   installDevDeps:
-    'npm i -D eslint eslint-config-airbnb-base eslint-plugin-import jest @babel/preset-env',
+    'npm i -D eslint eslint-config-airbnb-base eslint-plugin-import jest @babel/preset-env @types/jest',
   'package.json': {
     type: 'module', // node: enable .js ES6 modules`
     scripts: {
